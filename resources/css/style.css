@@ -20,13 +20,16 @@ header {
 .logo img {
   margin-top: 35px;
   margin-left: 30px;
-  width: 32%;
+  width: 28%;
+  border-radius: 20px;
+
 }
 
 .number img {
-  margin-top: 15px;
-  margin-left: 30px;
+  margin-top: 0px;
+  margin-left: 34px;
   width: 10%;
+  border-radius: 20px;
 }
 
 
@@ -56,14 +59,27 @@ ul {
 
 .content-container {
 
-  width: 700px;
-  /* margin-top: 5px; */
+  width: 400px;
+  height: 1000px;
+  margin-top: 160px;
   text-align: center;
   display: inline-block;
   position: relative;
-  left: 270px;
-  background-image: url(../images/enzo3a.png);
-  /* background-size: cover; */
+  left: 300px;
+  /* background-image: url(../images/enzo3a.png); */
+
+}
+
+.enzo-container {
+  background-image: url(../images/EnzoBlue2.png);
+  /* position: absolute; */
+  background-size: contain;
+  width: 1000px;
+  height: auto;
+  margin-left: 170px;
+  background-repeat: no-repeat;
+
+
 }
 
 .title {
