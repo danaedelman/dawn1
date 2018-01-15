@@ -9,16 +9,19 @@ body {
 header {
   position: relative;
   width: 100%;
-  height: 200px;
-  background-image: url(../images/182097323_cropped.jpg);
-  background-size: cover;
+  height: 175px;
+  /* background-image: url(../images/182097323_cropped.jpg);
+  background-size: cover; */
+  border-bottom: 5px solid #f1eff2;
+  border-top: 5px solid #f1eff2;
+  background-color: #f9fafc;
 
 }
 
 
 
 .logo img {
-  margin-top: 35px;
+  margin-top: 25px;
   margin-left: 30px;
   width: 28%;
   border-radius: 20px;
@@ -26,8 +29,8 @@ header {
 }
 
 .number img {
-  margin-top: 0px;
-  margin-left: 34px;
+  margin-top: -10px;
+  margin-left: 30px;
   width: 10%;
   border-radius: 20px;
 }
@@ -35,13 +38,20 @@ header {
 
 .nav-container {
   height: 200px;
-  width: 180px;
+  width: 220px;
   display: inline-block;
   position: absolute;
-  /* margin-top: 30px; */
+  margin-top: 10px;
+  margin-left: 13px;
    /* border-right: 1px solid #8177ba; */
-  background-image: url(../images/enzo1a.png);
-  background-size: cover;
+  background-image: url(../images/enzo_small.png);
+  background-size: contain;
+
+}
+
+nav {
+  padding-left: 16px;
+  padding-top: 23px;
 
 }
 
